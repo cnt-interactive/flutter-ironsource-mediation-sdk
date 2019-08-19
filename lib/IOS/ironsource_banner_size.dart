@@ -1,5 +1,3 @@
-import 'package:meta/meta.dart';
-
 class IronSourceBannerSize {
   final int width, height;
   final String name;
@@ -7,8 +5,8 @@ class IronSourceBannerSize {
   static const IronSourceBannerSize BANNER = IronSourceBannerSize(width: 320, height: 50, name: 'BANNER');
 
   const IronSourceBannerSize({
-    @required this.width,
-    @required this.height,
+    this.width,
+    this.height,
     this.name,
   });
 

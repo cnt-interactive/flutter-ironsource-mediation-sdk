@@ -1,8 +1,8 @@
 name: ironsource_flutter_ads
 description: A new Flutter plugin.
 version: 0.0.1
-author:
-homepage:
+author: CNT Interactive <dev@cntinteractive.com>
+homepage: http://www.cntinteractive.com
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

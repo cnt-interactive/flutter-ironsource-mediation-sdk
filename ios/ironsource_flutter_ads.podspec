@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'A Flutter plugin that uses native platform views to show IronSource banner and interstitial ads!'
   s.description      = <<-DESC
-A new Flutter plugin.
+A Flutter plugin that uses native platform views (IOS & Android) to show IronSource banner and interstitial ads!
                        DESC
   s.homepage         = 'http://www.cntinteractive.com'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = 'MIT'
   s.author           = { 'CNT Interactive' => 'info@cntinteractive.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
