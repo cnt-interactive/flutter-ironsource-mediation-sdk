@@ -1,0 +1,62 @@
+group 'com.spt.ironsource_flutter_ads'
+version '1.0-SNAPSHOT'
+
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        //IronSource SDK
+
+
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://dl.bintray.com/ironsource-mobile/android-sdk"
+        }
+        maven {
+            //IronSource Adapters
+            url "http://dl.bintray.com/ironsource-mobile/android-adapters"
+        }
+
+
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+
+
+dependencies {
+    //Add IronSource Mediation SDK dependency.
+    api files('libs/mediationsdk-6.9.0.jar')
+
+
+// Add InMobi Network
+    implementation 'com.ironsource.adapters:inmobiadapter:4.3.1@jar'
+
+
+}
+
+
