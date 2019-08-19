@@ -4,7 +4,7 @@ A Flutter plugin that uses native platform views to show IronSource banner and i
 
 # Description
 
-Import the SceneKit and ARKit libraries. Edit the 3d models that you use in the project and run it 🚀</br></br>
+xxx 🚀</br></br>
 
 <img width="300" alt="portfolio_view" src="https://media.giphy.com/media/jqwcyovkVTiiDl9ZKh/giphy.gif">
 
