@@ -28,14 +28,13 @@ xxx 🚀</br></br>
      ),
 ```
 
-3. Show Interstitial Ad:
+3. Show Interstitial Ads
+
+3.1 Implementing listener and load Interstitial Ad:
 
 ```dart
  interstitialAd = IronsourceInterstitial(
       listener: (IronsourceAdEvent event, Map<String, dynamic> args) {
-        if (event == IronsourceAdEvent.closed) {
-          interstitialAd.load();
-        }
         handleEvent(event, args, 'Interstitial');
       },
     );
@@ -43,6 +42,8 @@ xxx 🚀</br></br>
 
     interstitialAd.load();
 ```
+
+3.2 Show Interstitial Ad:
 
 ```dart
   if (await interstitialAd.isLoaded){
