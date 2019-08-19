@@ -1,6 +1,6 @@
 # ironsource_flutter_ads
 
-A Flutter plugin that uses native platform views to show IronSource banner and interstitial ads!
+A Flutter plugin that uses native platform views (IOS & Android) to show IronSource banner and interstitial ads!
 
 
 xxx 🚀</br></br>
@@ -13,8 +13,22 @@ xxx 🚀</br></br>
 1. Initialize the plugin: 
 
 ```dart
-await IronSource.initialize(appKey: Constants.appID, listener: this);
+ IronsourceFlutterAds.initialize(Constants.appID);
 ```
+
+2. Show Banner Ad:
+
+```dart
+  IronSourceBanner(
+      adSize: bannerSize,
+      listener: (
+        IronsourceAdEvent event, Map<String, dynamic> args) {
+        handleEvent(event, args, 'Banner');
+       },
+     ),
+```
+
+
 
 
 Call FacebookAudienceNetwork.init() during app initialization.
