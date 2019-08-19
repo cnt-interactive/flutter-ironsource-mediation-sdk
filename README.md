@@ -1,11 +1,11 @@
-# ironsource_flutter_ads
+# Ironsource Flutter Mediation SDK
 
 A Flutter plugin that uses native platform views (IOS & Android) to show IronSource banner and interstitial ads!
 
 
 </br></br>
 
-<img width="300" alt="portfolio_view" src="https://live.staticflickr.com/65535/48574710632_fd7f318277_b.jpg">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<img width="300" alt="portfolio_view" src="https://media.giphy.com/media/jqwcyovkVTiiDl9ZKh/giphy.gif">
+<img width="300" alt="portfolio_view" src="https://live.staticflickr.com/65535/48574710632_fd7f318277_b.jpg">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<img width="300" alt="portfolio_view" src="https://media.giphy.com/media/jqwcyovkVTiiDl9ZKh/giphy.gif"></br></br>
 
 
 # Getting Started 🚀
@@ -53,6 +53,10 @@ A Flutter plugin that uses native platform views (IOS & Android) to show IronSou
       interstitialAd.show();
   }                        
 ```
+
+
+<b>3. Add Mediation both of Android and IOS </b>
+
 
 
 # Future Work
