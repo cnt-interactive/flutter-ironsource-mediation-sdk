@@ -54,8 +54,7 @@ A Flutter plugin that uses native platform views (IOS & Android) to show IronSou
   }                        
 ```
 
-
-<b>3. Add Mediation both of Android and IOS </b> </br></br>
+ </br></br>
 
 
 
