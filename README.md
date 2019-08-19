@@ -10,13 +10,13 @@ xxx 🚀</br></br>
 
 # Getting Started
 
-1. Initialize the plugin: 
+<b>1. Initialize the plugin: </b>
 
 ```dart
  IronsourceFlutterAds.initialize(Constants.appID);
 ```
 
-2. Show Banner Ad:
+<b>2. Show Banner Ad:</b>
 
 ```dart
   IronSourceBanner(
@@ -28,7 +28,7 @@ xxx 🚀</br></br>
      ),
 ```
 
-3. Show Interstitial Ads
+<b>3. Show Interstitial Ads</b>
 
 3.1 Implementing listener and load Interstitial Ad:
 
@@ -53,20 +53,3 @@ xxx 🚀</br></br>
 
 
 
-
-
-
-Call FacebookAudienceNetwork.init() during app initialization.
-
-
-
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-# ironsource-mediation-sdk
-# ironsource-mediation-sdk
