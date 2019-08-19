@@ -28,6 +28,30 @@ xxx 🚀</br></br>
      ),
 ```
 
+3. Show Interstitial Ad:
+
+```dart
+ interstitialAd = IronsourceInterstitial(
+      listener: (IronsourceAdEvent event, Map<String, dynamic> args) {
+        if (event == IronsourceAdEvent.closed) {
+          interstitialAd.load();
+        }
+        handleEvent(event, args, 'Interstitial');
+      },
+    );
+
+
+    interstitialAd.load();
+```
+
+```dart
+  if (await interstitialAd.isLoaded){
+      interstitialAd.show();
+  }                        
+```
+
+
+
 
 
 
