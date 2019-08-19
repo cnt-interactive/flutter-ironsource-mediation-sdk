@@ -56,7 +56,6 @@ class IronSource {
 abstract class IronSourceListener {
   Future<Null> _handle(MethodCall call) async {
 
-//    interstitial
      if (call.method == INTERSTITIAL_CLICKED)
       onInterstitialAdClicked();
     else if (call.method == INTERSTITIAL_CLOSED)
@@ -79,7 +78,6 @@ abstract class IronSourceListener {
 
 
 
-  // Interstitial
   void onInterstitialAdClicked();
 
   void onInterstitialAdReady();

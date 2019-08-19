@@ -112,7 +112,6 @@ class IronsourceAndroidState extends State<MyApp> with IronSourceListener , Iron
                 ],
               ),
             ),
-// Banner ad
 
           ],
         ),

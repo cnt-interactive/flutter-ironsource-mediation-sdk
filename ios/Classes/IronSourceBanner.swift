@@ -37,13 +37,11 @@ class IronSourceBanner : NSObject, FlutterPlatformView {
     }
     
    
-    //bu metod ile geriye bannerView dondururken ayni zamanda, banneri yapilandiriyoruz
     
     private func getBannerAdView() -> UIView? {
         channel.setMethodCallHandler { [weak self] (flutterMethodCall: FlutterMethodCall, flutterResult: FlutterResult) in
                 switch flutterMethodCall.method {
                     
-                //client den gelen "setListener" komutu ile burada Delegate'imizi bagliyoruz
                 case "setListener":
                     IronSource.setBannerDelegate(self!)
                     break
@@ -55,7 +53,6 @@ class IronSourceBanner : NSObject, FlutterPlatformView {
                 }
             }
         
-            //banner load islemi
             if let viewController = UIApplication.shared.keyWindow!.rootViewController {
                 IronSource.loadBanner(with: viewController, size: ISBannerSize(description: "BANNER"))
             }

@@ -86,7 +86,6 @@ abstract class IronSourceBannerListener {
       onBannerAdScreenPresented();
   }
 
-//  Banner
   void onBannerAdLeftApplication();
 
   void onBannerAdScreenDismissed();

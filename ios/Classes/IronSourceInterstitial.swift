@@ -63,27 +63,7 @@ public class IronsourceIntersitialPlugin: NSObject, FlutterPlugin {
             result(FlutterMethodNotImplemented)
         }
     }
-    
-//    private func loadInterstantialAd(id: Int, interstantialAdUnitId: String) {
-//        let interstantial = getInterstitialAd(id: id, interstantialAdUnitId: interstantialAdUnitId)
-//        let request = GADRequest()
-//        request.testDevices = [kGADSimulatorID]
-//        interstantial.load(request)
-//    }
-//
-//    private func getInterstitialAd(id: Int, interstantialAdUnitId: String) -> GADInterstitial {
-//        if let interstantialAd = allIds[id] {
-//            if (interstantialAd.hasBeenUsed) {
-//                let interstantialAd = GADInterstitial(adUnitID: interstantialAdUnitId)
-//                allIds[id] = interstantialAd
-//            }
-//        } else {
-//            let interstantialAd = GADInterstitial(adUnitID: interstantialAdUnitId)
-//            allIds[id] = interstantialAd
-//        }
-//
-//        return allIds[id]!
-//    }
+ 
    
 }
 
