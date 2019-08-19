@@ -56,6 +56,6 @@ A Flutter plugin that uses native platform views (IOS & Android) to show IronSou
 
 
 # Future Work
-*Implement for type of rewarded and offerwall ads.
+* Implement for type of rewarded and offerwall ads.
 
 
