@@ -96,14 +96,12 @@ class IronsourceIntersitialPluginDelegate: NSObject, ISInterstitialDelegate {
     }
     
     public func interstitialDidLoad() {
-        
-        print("OOOOO ONURCAN YURT")
+
         channel.invokeMethod("loaded", arguments: nil)
         
     }
     
     public func interstitialDidFailToLoadWithError(_ error: Error!) {
-        print("OOOOO ONURCAN YURT22")
          channel.invokeMethod("failedToShow", arguments: ["errorCode": error.localizedDescription])
     }
     
@@ -122,7 +120,6 @@ class IronsourceIntersitialPluginDelegate: NSObject, ISInterstitialDelegate {
     }
     
     public func interstitialDidFailToShowWithError(_ error: Error!) {
-        print("OOOOO ONURCAN YURT33")
         channel.invokeMethod("failedToShow", arguments: ["errorCode": error])
         
     }

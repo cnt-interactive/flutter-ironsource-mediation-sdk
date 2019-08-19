@@ -61,7 +61,6 @@ class _IronSourceBannerAdState extends State<IronSourceBannerAd>
   }
 
   void _onBannerAdViewCreated(int id) async {
-    print("ali 111");
     final channel = MethodChannel('$BANNER_CHANNEL$id');
     _listener = widget.listener;
     channel.setMethodCallHandler(_listener._handle);

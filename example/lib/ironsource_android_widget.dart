@@ -15,7 +15,6 @@ class IronsourceAndroidState extends State<MyApp> with IronSourceListener , Iron
   @override
   void initState() {
 
-    print("ppppp onur0");
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     init();
@@ -25,7 +24,6 @@ class IronsourceAndroidState extends State<MyApp> with IronSourceListener , Iron
   void didChangeAppLifecycleState(AppLifecycleState state) {
 
 
-    print("ppppp onur1");
     switch(state){
 
       case AppLifecycleState.resumed:
@@ -72,7 +70,6 @@ class IronsourceAndroidState extends State<MyApp> with IronSourceListener , Iron
   Widget build(BuildContext context) {
 
 
-    print("ppppp onu4444");
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
