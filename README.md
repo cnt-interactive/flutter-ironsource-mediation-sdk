@@ -1,8 +1,15 @@
 # ironsource_flutter_ads
 
-A new Flutter plugin.
+A Flutter plugin that uses native platform views to show IronSource banner and interstitial ads!
 
-## Getting Started
+# Description
+
+Import the SceneKit and ARKit libraries. Edit the 3d models that you use in the project and run it 🚀</br></br>
+
+<img width="300" alt="portfolio_view" src="https://media.giphy.com/media/jqwcyovkVTiiDl9ZKh/giphy.gif">
+
+
+
 
 This project is a starting point for a Flutter
 [plug-in package](https://flutter.dev/developing-packages/),
