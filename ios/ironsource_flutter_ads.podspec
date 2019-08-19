@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'ironsource_flutter_ads'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A Flutter plugin that uses native platform views to show IronSource banner and interstitial ads!'
   s.description      = <<-DESC
 A new Flutter plugin.
