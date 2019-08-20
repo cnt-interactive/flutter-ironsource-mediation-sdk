@@ -24,7 +24,7 @@ class IronsourceIOSState extends State<MyApp> {
     interstitialAd = IronsourceInterstitial(
       listener: (IronsourceAdEvent event, Map<String, dynamic> args) {
         if (event == IronsourceAdEvent.closed) {
-          //interstitialAd.load();
+          interstitialAd.load();
         }
         handleEvent(event, args, 'Interstitial');
       },
