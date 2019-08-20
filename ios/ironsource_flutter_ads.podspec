@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 A Flutter plugin that uses native platform views (IOS & Android) to show IronSource banner and interstitial ads!
                        DESC
   s.homepage         = 'http://www.cntinteractive.com'
-  s.license          = 'MIT'
+  s.license          = { :file => '../LICENSE' }
   s.author           = { 'CNT Interactive' => 'info@cntinteractive.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
