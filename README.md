@@ -57,10 +57,10 @@ Add the following activities inside the <application> tag in your AndroidManifes
 
    //interstitial ready is can show?
 
-   if(interstitialHelper.isShow()){
-   interstitialHelper.onShow();
-   }
-
+   RaisedButton(onPressed: () {
+              if (interstitialHelper.isShow()) {
+                interstitialHelper.onShow();
+              }
 ```
 
  </br></br>
