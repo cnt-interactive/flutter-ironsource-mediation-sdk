@@ -82,6 +82,12 @@ Add the following activities inside the <application> tag in your AndroidManifes
    //onDestroy interstitial
 
    interstitialHelper.onDestroy();
+   
+   //isShow interstitial isShowing ?
+   interstitialHelper.isShow();
+ 
+   //onShow interstitial show :)
+   interstitialHelper.onShow();
 
 ```
 
