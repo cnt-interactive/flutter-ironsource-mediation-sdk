@@ -49,18 +49,6 @@ Add the following activities inside the <application> tag in your AndroidManifes
     InterstitialHelper interstitialHelper = InterstitialHelper(testAppId);
 ```
 
-<b>2. Show Banner Ad:</b>
-
-```dart
-  IronSourceBanner(
-      adSize: bannerSize,
-      listener: (
-        IronsourceAdEvent event, Map<String, dynamic> args) {
-        handleEvent(event, args, 'Banner');
-       },
-     ),
-```
-
 <b>3. Show Interstitial Ads</b>
 
 * Show Interstitial Ad:
@@ -95,6 +83,18 @@ Add the following activities inside the <application> tag in your AndroidManifes
 
    interstitialHelper.onDestroy();
 
+```
+
+<b>2. Show Banner Ad:</b>
+
+```dart
+  IronSourceBanner(
+      adSize: bannerSize,
+      listener: (
+        IronsourceAdEvent event, Map<String, dynamic> args) {
+        handleEvent(event, args, 'Banner');
+       },
+     ),
 ```
 
 
