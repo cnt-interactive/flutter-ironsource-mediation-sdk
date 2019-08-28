@@ -1,36 +1,27 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:ironsource_flutter_ads_example/ironsource_android_widget.dart';
-import 'package:ironsource_flutter_ads/IOS/ironsource_flutter.dart';
-
-import 'ironsource_ios_widget.dart';
-
+import 'package:ironsource_flutter_ads/helper/ironsource_interstitial_helper.dart';
 
 void main() {
-
   runApp(MyApp());
 }
 
-
-
-class MyApp extends StatefulWidget {
-
+class MyApp extends StatelessWidget {
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
+  Widget build(BuildContext context) {
+    InterstitialHelper interstitialHelper = InterstitialHelper("9b563ab5");
 
-    if (defaultTargetPlatform == TargetPlatform.android) {
-
-      return IronsourceAndroidState();
-    }else if (defaultTargetPlatform == TargetPlatform.iOS){
-
-      return IronsourceIOSState();
-    }
-
-    return null;
+    return MaterialApp(
+      home: Scaffold(
+        body: Container(
+          child: Center(
+            child: RaisedButton(onPressed: () {
+              if (interstitialHelper.isShow()) {
+                interstitialHelper.onShow();
+              }
+            }),
+          ),
+        ),
+      ),
+    );
   }
-
-
-
 }
-

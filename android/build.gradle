@@ -50,7 +50,7 @@ android {
 
 dependencies {
     //Add IronSource Mediation SDK dependency.
-    api files('libs/mediationsdk-6.9.0.jar')
+    api files('libs/mediationsdk-6.9.1.jar')
 
 
 // Add InMobi Network
