@@ -1,6 +1,6 @@
 name: ironsource_flutter_ads
 description: A Flutter plugin that uses native platform views to show IronSource banner and interstitial ads!
-version: 0.0.6
+version: 0.1.0
 author: CNT Interactive <dev@cntinteractive.com>
 homepage: http://www.cntinteractive.com
 
