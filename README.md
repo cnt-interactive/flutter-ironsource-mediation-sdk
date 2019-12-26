@@ -10,7 +10,7 @@ A Flutter plugin that uses native platform views (IOS & Android) to show IronSou
 
 # Getting Started 🚀
 
-<b>1. Initialize the plugin: </b>
+<b>Initialize the plugin (Android Only): </b>
 
 <h2>Android Installing</h2>
 
@@ -49,7 +49,7 @@ Add the following activities inside the <application> tag in your AndroidManifes
     InterstitialHelper interstitialHelper = InterstitialHelper(testAppId);
 ```
 
-<b>3. Show Interstitial Ads</b>
+<b>Show Interstitial Ads</b>
 
 * Show Interstitial Ad:
 
@@ -65,7 +65,7 @@ Add the following activities inside the <application> tag in your AndroidManifes
 
  </br></br>
 
-<b> 3. Interstitial Methods </b>
+<b>Interstitial Methods </b>
 
 *Methods InterstitialHelper
 
@@ -91,7 +91,7 @@ Add the following activities inside the <application> tag in your AndroidManifes
 
 ```
 
-<b>2. Show Banner Ad:</b>
+<b>Show Banner Ad:</b>
 
 ```dart
   IronSourceBanner(
